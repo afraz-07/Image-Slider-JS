@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+.slider-container{
+    width: 100%;
+    position: relative;
+   
+}
+
+
+
+img{
+    width: 100%;
+    
+}
+
+.arrow{
+    cursor: pointer;
+    position: absolute;
+    top: 45%;
+    font-size: xx-large;
+    padding: 1px 14px 1px 15px;
+    background-color: rgba(255, 255, 255, 0.575);
+    border-radius: 50%;
+}
+
+.next{
+    right: 10px;
+}
+
+.prev{
+    left: 10px;
+}
+
+.caption{
+    font-size: 20px;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.575);
+    padding: 10px 0;
+}
+
+.slide{
+    display: none;
+}
